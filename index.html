@@ -1,10 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Sets character encoding to UTF-8 so special characters (like the em-dash "—") render properly -->
     <meta charset="UTF-8" />
+    <!-- Configures responsive layout scaling across mobile, tablet, and desktop screens -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title displayed in browser tabs, bookmarks, and search results -->
     <title>DESYR — Wear the Story</title>
+    <!-- Meta description used by search engines to summarize the page in search snippets -->
     <meta name="description" content="Discover clothing from Guzel, GoruGhash and Wrongs & Rebels through interactive fashion magazines. Open a magazine. Shop the look." />
+    <!-- Preconnect hints establish early connections to Google Fonts servers to reduce latency -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +18,9 @@
     />
   </head>
   <body>
+    <!-- Root mount node where React injects and renders the application -->
     <div id="root"></div>
+    <!-- Entry-point ES module script (Vite + TypeScript/React) that initializes the app -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
